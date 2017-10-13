@@ -1,9 +1,8 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-% Revision Code: 8zNrNv
-% 	
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%  
+%  
+% Revision Code: 8zNrNv  
+%  
+%%%%%%%%%%%%%%%%%%%%%%%%%%%  
 
 
 ## OVERVIEW
@@ -50,30 +49,30 @@ Models are added as submodules in this repository, while most other scripts can 
 
 Every function or code snippet committed to this repository contains a header like in this example:
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-% Revision Code: 3a5c8w0r0v
-%	- needs a bit of input decimation
-%	- code is in need of function compression
-%	- wildcard notes
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%  
+%  
+% Revision Code: 3a5c8w0r0v  
+%	- needs a bit of input decimation  
+%	- code is in need of function compression  
+%	- wildcard notes  
+%  
+%%%%%%%%%%%%%%%%%%%%%%%%%%  
 
-RevisionParse :=
+RevisionParse :=  
 
 	[
-	 InputDecimation = "regexp:^([1-9]|N)[a]?(.*?)[\s]*$"
-	 MagicNumberDecimation = "regexp:^([1-9]|N)[b]?(.*?)[\s]*$"
-	 CodeRedundancy = "regexp:^([1-9]|N)[c]?(.*?)[\s]*$"
-	 Reviewed = "regexp:^([1-9]|N)[r]?(.*?)[\s]*$"
-	 Verified = "regexp:^([1-9]|N)[v]?(.*?)[\s]*$"
-	 Rereview = "regexp:^([1-9]|N)[R]?(.*?)[\s]*$"
-	 Reverify = "regexp:^([1-9]|N)[V]?(.*?)[\s]*$"
-	 Wildcard = "regexp:^([1-9]|N)[w]?(.*?)[\s]*$"
-	]
+	 InputDecimation = "regexp:^([1-9]|N)[a]?(.*?)[\s]*$"  
+	 MagicNumberDecimation = "regexp:^([1-9]|N)[b]?(.*?)[\s]*$"  
+	 CodeRedundancy = "regexp:^([1-9]|N)[c]?(.*?)[\s]*$"  
+	 Reviewed = "regexp:^([1-9]|N)[r]?(.*?)[\s]*$"  
+	 Verified = "regexp:^([1-9]|N)[v]?(.*?)[\s]*$"  
+	 Rereview = "regexp:^([1-9]|N)[R]?(.*?)[\s]*$"  
+	 Reverify = "regexp:^([1-9]|N)[V]?(.*?)[\s]*$"  
+	 Wildcard = "regexp:^([1-9]|N)[w]?(.*?)[\s]*$"  
+	]  
 
-	UpdatePriority = InputDecimation + MagicNumberDecimation ...
-		CodeRedundancy + Reviewed + Verified
+	UpdatePriority = InputDecimation + MagicNumberDecimation ...  
+		CodeRedundancy + Reviewed + Verified  
 
 
 %% InputDecimation
