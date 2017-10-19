@@ -19,8 +19,11 @@ Models are added as submodules in this repository, while most other scripts can 
 * Publication critical code must be reviewed and verified by people other than the original authors.
 * Commits should try to follow best practices:
 	* https://gist.github.com/adeekshith/cd4c95a064977cdc6c50
-* Documentation should be written in Markdowno or Latex
-	* https://github.com/jgm/pandoc
+* Documentation should be written in Markdown (pretty), reStructuredText (pretty + programmatic + complicated), or Latex (unusual for basic documentation but obviously the most powerful)
+	* https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+	* https://github.com/jgm/pandoc - convert between formats  
+	* https://thomas-cokelaer.info/tutorials/sphinx/rest_syntax.html - learn reStructuredText  
+	
 * Code should be presentable in publication.
 
 	To make Matlab code look pretty in Latex:
@@ -42,7 +45,37 @@ Models are added as submodules in this repository, while most other scripts can 
 
 	Model configurations should be set by external json files, e.g.
 
-	https://github.com/fangq/jsonlab
+	https://github.com/fangq/jsonlab  
+	
+* See the feature request grammar below as well.  
+	
+## Repository structure/organization  
+
+Goal: Move everything from lab SVN to Git.  
+
+### Org chart
+
+1. Public (Public. Reviewed/Verified)  
+	* LAG-1 submodule  
+2. Analyses (Private)  
+	* Gnarly  
+	* SQL tools  
+	* Experiments  
+		* LAG-1  
+3. InProgress (Private)  
+	* Analyses  
+	* Modeling  
+		* RLAttn
+	* Experiments  
+4. Modeling (Public)  
+	*Common  
+		*ThirdParty  
+		*CSLab  
+5. Gnarly  
+6. LAG-1  
+7. Skillcraft  
+8. Data Visualization  
+9. Wiki  
 
 
 ## GRAMMAR FOR FEATURE REQUESTS
