@@ -49,9 +49,10 @@ LAG-1, as first committed, has been tested on versions of Matlab dating as far b
 	[accuracy, category, fixOrder, subjectNumber, Duration, recordSaccStart, recordSaccEnd, endFit, wtHist, accuracyLevels, Responses, ResponseDist] = TwoDSimulator(varargin)
 
 	**Specific category structure** 
-	* 1 = ET3
-	* 2 = SSHRC_IF 
-	* 3 = 5/4
+	* 1 = ET3 (code name for Meier2013)  
+	* 2 = SSHRC_IF (code name for McColeman2011)  
+	* 3 = 5/4 (code name for Rehder2005)  
+	* 6 = Kruschke2005 blocking structure  
 	* 7 = Simple blocking structure
 
 	[accuracy, category, fixOrder, subjectNumber, Duration, recordSaccStart, recordSaccEnd, endFit, wtHist, accuracyLevels, Responses, ResponseDist] = TwoDSimulator(1)
