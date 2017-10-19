@@ -17,7 +17,7 @@ Models are added as submodules in this repository, while most other scripts can 
 ## STANDARDS
 
 * Publication critical code must be reviewed and verified by people other than the original authors.  
-* Subtrees are preferable to submodules, despite the potential for code redundancy. Not always possible (external Mercurial for example)  
+* Subtrees are preferable to submodules, despite the potential for code redundancy. Not always possible (external Mercurial for example). A subtree offers the best chance the Master will have everyone working with the same library version.  
 * Commits should try to follow best practices:
 	* https://gist.github.com/adeekshith/cd4c95a064977cdc6c50
 * Documentation should be written in Markdown (pretty), reStructuredText (pretty + programmatic + complicated), or Latex (unusual for basic documentation but obviously the most powerful)
