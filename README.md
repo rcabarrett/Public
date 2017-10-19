@@ -56,21 +56,25 @@ Goal: Move everything from lab SVN to Git.
 ### Org chart
 
 1. Public (Public. Reviewed/Verified)  
-	* LAG-1 submodule  
+	* LAG-1 (subtree)  
+	* Data (git-lfs)    
 2. Analyses (Private)  
-	* Gnarly  
+	* Gnarly (subtree)  
 	* SQL tools  
 	* Experiments  
+	* Models  
 		* LAG-1  
 3. InProgress (Private)  
 	* Analyses  
 	* Modeling  
 		* RLAttn
 	* Experiments  
+		* CovertLearning  
 4. Modeling (Public)  
-	*Common  
-		*ThirdParty  
-		*CSLab  
+	* Common  
+		* ThirdParty  
+			* Cosivina (Submodule. Mercurial. git-hg) 
+		* CSLab  
 5. Gnarly  
 6. LAG-1  
 7. Skillcraft  
