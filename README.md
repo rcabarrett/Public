@@ -16,7 +16,8 @@ Models are added as submodules in this repository, while most other scripts can 
 
 ## STANDARDS
 
-* Publication critical code must be reviewed and verified by people other than the original authors.
+* Publication critical code must be reviewed and verified by people other than the original authors.  
+* Subtrees are preferable to submodules, despite the potential for code redundancy. Not always possible (external Mercurial for example)  
 * Commits should try to follow best practices:
 	* https://gist.github.com/adeekshith/cd4c95a064977cdc6c50
 * Documentation should be written in Markdown (pretty), reStructuredText (pretty + programmatic + complicated), or Latex (unusual for basic documentation but obviously the most powerful)
@@ -26,26 +27,21 @@ Models are added as submodules in this repository, while most other scripts can 
 	
 * Code should be presentable in publication.
 
-	To make Matlab code look pretty in Latex:
+	* To make Matlab code look pretty in Latex: 
+		* https://github.com/Jubobs/matlab-prettifier  
 
-	https://github.com/Jubobs/matlab-prettifier
+	* To try and auto-convert Matlab expressions to Latex:  
+		* http://people.csail.mit.edu/pgbovine/mathviz/  
+		* https://github.com/pgbovine/mathviz  
 
-	To try and auto-convert Matlab expressions to Latex:
+	* To convert Latex to Matlab, try:  
+		* https://github.com/ProjectTiresias/Tiresias/  
 
-	http://people.csail.mit.edu/pgbovine/mathviz/
-	https://github.com/pgbovine/mathviz
+	* To auto-convert Matlab figures to Latex:  
+		* https://github.com/matlab2tikz/  
 
-	To convert Latex to Matlab, try:
-
-	https://github.com/ProjectTiresias/Tiresias/
-
-	To auto-convert Matlab figures to Latex:
-
-	https://github.com/matlab2tikz/
-
-	Model configurations should be set by external json files, e.g.
-
-	https://github.com/fangq/jsonlab  
+	* Model configurations should be set by external json files, e.g.  
+		* https://github.com/fangq/jsonlab  
 	
 * See the feature request grammar below as well.  
 	
