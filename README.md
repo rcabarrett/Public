@@ -58,6 +58,7 @@ Goal: Move everything from lab SVN to Git.
 	* Gnarly (subtree)  
 	* SQL tools  
 	* Experiments  
+	* General  
 	* Models  
 		* LAG-1  
 3. InProgress (Private)  
