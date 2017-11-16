@@ -7,11 +7,9 @@
 
 ## OVERVIEW
 
-Welcome to the Simon Fraser University Cognitive Science Laboratory modeling repository.   
+Welcome to the Simon Fraser University Cognitive Science Laboratory public code repository.   
 
 This readme will explain the coding standards, and internal revision labels we sometimes use to quickly describe the state of a function/script.
-
-Models are added as submodules in this repository, while most other scripts can be committed directly.
 
 
 ## STANDARDS
