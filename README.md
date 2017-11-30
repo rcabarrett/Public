@@ -46,7 +46,14 @@ This readme will explain the coding standards, and internal revision labels we s
 
 Goal: Move everything from lab SVN to Git.  
 
+
 ### Repository management  
+
+More information regarding permissions for an Organization Repo (distinct from a normal user created repo):
+https://help.github.com/articles/repository-permission-levels-for-an-organization/  
+
+More information regarding normal (i.e. non-organization) GitHub repos:   
+https://help.github.com/articles/permission-levels-for-a-user-account-repository/  
 
  - https://stackoverflow.com/questions/7983204/having-a-private-branch-of-a-public-repo-on-github  
  - https://stackoverflow.com/questions/9067283/is-there-a-way-to-use-a-mercurial-repository-as-git-submodule  
