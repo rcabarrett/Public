@@ -11,7 +11,6 @@ Welcome to the Simon Fraser University Cognitive Science Laboratory public code 
 
 This readme will explain the coding standards, and internal revision labels we sometimes use to quickly describe the state of a function/script.
 
-
 ## STANDARDS
 
 * Publication critical code must be reviewed and verified by people other than the original authors.  
@@ -46,6 +45,12 @@ This readme will explain the coding standards, and internal revision labels we s
 ## Repository structure/organization  
 
 Goal: Move everything from lab SVN to Git.  
+
+### Repository management  
+
+ - https://stackoverflow.com/questions/7983204/having-a-private-branch-of-a-public-repo-on-github  
+ - https://stackoverflow.com/questions/9067283/is-there-a-way-to-use-a-mercurial-repository-as-git-submodule  
+ 
 
 ### Org chart
 
