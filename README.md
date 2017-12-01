@@ -1,3 +1,4 @@
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%  
 %  
 % Revision Code: 8zNrNv  
@@ -12,6 +13,10 @@ Welcome to the Simon Fraser University Cognitive Science Laboratory public code 
 This readme will explain the coding standards, and internal revision labels we sometimes use to quickly describe the state of a function/script.
 
 ## STANDARDS
+
+* Do not store Personal Information of Participants on GitHub.
+
+* Do not store ANY passwords on git.
 
 * Publication critical code must be reviewed and verified by people other than the original authors.  
 * Subtrees are preferable to submodules, despite the potential for code redundancy. Not always possible (external Mercurial for example). A subtree offers the best chance the Master will have everyone working with the same library version.  
